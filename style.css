@@ -1,0 +1,121 @@
+body {
+  background: -webkit-gradient(linear, right top, left top, from(#eee), to(#d3eeee));
+  background: linear-gradient(to left, #eee, #d3eeee);
+  overflow: hidden;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.container .banner {
+  height: 47em;
+  width: 18rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.container img {
+  height: 78%;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container .red_bg {
+  width: 100vw;
+}
+
+.container .img4 {
+  -webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+          clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+.container .img2 {
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+}
+
+.container .img13 {
+  z-index: 100;
+}
+
+.container .img9 {
+  position: absolute;
+  top: 19.6%;
+  left: 69%;
+}
+
+.container .img10 {
+  position: absolute;
+  top: 23%;
+  -webkit-transform: translate(-15%, 0%);
+          transform: translate(-15%, 0%);
+  height: 15%;
+  width: auto;
+  z-index: 500;
+}
+
+.container .img11 {
+  position: absolute;
+  top: 28%;
+  left: 72.5%;
+  height: auto;
+  width: 55%;
+  z-index: 400;
+}
+
+.container .img12 {
+  z-index: 700;
+  -webkit-clip-path: circle(0% at 50% 50%);
+          clip-path: circle(0% at 50% 50%);
+}
+
+.container .img14 {
+  z-index: 800;
+}
+
+.container .img14, .container .img15, .container .img16, .container .img17 {
+  z-index: 800;
+}
+
+.container .img17 {
+  z-index: 900;
+  -webkit-clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%);
+          clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%);
+}
+
+.container .item1 {
+  z-index: 200;
+}
+
+.container .item2 {
+  z-index: 600;
+}
+
+.container .cloud1 {
+  position: absolute;
+  width: 37vw;
+  top: 30%;
+  left: -28%;
+}
+
+.container .cloud2 {
+  position: absolute;
+  width: 56vw;
+  top: 10%;
+  left: 170%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,104 @@
+body {
+    background: linear-gradient(to left, #eee, #d3eeee);    
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+    
+    .banner {
+        // display: inline-block;
+        height: 47em;
+        width: 18rem;
+        position: relative;
+        overflow: hidden;
+    }
+    img{
+        height: 78%;
+        position: absolute;
+        width: 100%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .red_bg{
+        width: 100vw;
+    }
+    .img4{
+        clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+    .img2{
+        clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+    }
+    .img13{
+        z-index: 100;
+    }
+    // .img7{
+    //     clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+    // }
+    // .img6{
+    //     clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+    // }
+    
+    .img9{
+       position: absolute;
+       top: 19.6%;
+       left: 69%;
+    }
+    .img10{
+        position: absolute;
+        top: 23%;
+        transform: translate(-15%, 0%);
+        height: 15%;
+        width: auto;
+        z-index: 500;
+     }
+     .img11{
+        position: absolute;
+        top: 28%;
+        left: 72.5%;
+        height: auto;
+        width: 55%;
+        z-index: 400;
+     }
+    .img12{
+        z-index: 700;
+        clip-path: circle(0.0% at 50% 50%);
+    }
+    .img14{
+        // clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+        z-index: 800;
+    }
+    .img14, .img15, .img16, .img17{
+        z-index: 800;
+    }
+    .img17{
+        // clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%);
+        z-index: 900;
+        clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%);
+    }
+    .item1{
+        z-index: 200;
+    }
+    .item2{
+        z-index: 600;
+    }
+    .cloud1{
+        position: absolute;
+        width: 37vw;
+        top: 30%;
+        left: -28%;
+    }
+    .cloud2{
+        position: absolute;
+        width: 56vw;
+        top: 10%;
+        left: 170%;
+    }
+    
+    
+    
+}
+
